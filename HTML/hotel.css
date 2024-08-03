@@ -1,16 +1,81 @@
+h1,
+h2,
+h3,
+p {
+  font-family: sans-serif;
+}
+
+li:first {
+  color: red;
+}
+
 h1 {
-  color: brown;
+  font-size: 50px;
+  font-weight: 1000;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  line-height: 20px;
+  /* color: #DDDDDD; */
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 p {
-  font-size: 100px;
-  color: yellow;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  /* line-height: 100px; */
+  /* word-spacing: 20px;
+  letter-spacing: 20px; */
 }
 
-#taste {
-  color: brown;
+footer p {
+  font-size: 10px;
 }
 
-.my-font {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.footer-spain {
+  font-size: 20px;
+}
+
+/* li:first-child{
+  /* color: red;
+} */
+
+/* li:last-child{
+  color: blue;
+}  */
+
+li:nth-child(odd) {
+  color: green;
+}
+
+li:nth-child(even) {
+  color: red;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:active {
+  color: green;
 }
