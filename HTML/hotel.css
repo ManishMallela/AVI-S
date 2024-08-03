@@ -1,0 +1,16 @@
+h1 {
+  color: brown;
+}
+
+p {
+  font-size: 100px;
+  color: yellow;
+}
+
+#taste {
+  color: brown;
+}
+
+.my-font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
